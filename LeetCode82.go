@@ -5,6 +5,10 @@ type ListNode struct {
 	Next *ListNode
 }
 
+func NewListNode(val int, next *ListNode) *ListNode {
+	return &ListNode{Val: val, Next: next}
+}
+
 func deleteDuplicates(head *ListNode) *ListNode {
 	if head == nil {
 		return head
