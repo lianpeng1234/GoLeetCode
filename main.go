@@ -24,10 +24,14 @@ func main() {
 
 	//xx := [][]int{{1,4,7,11,15},{2,5,8,12,19},{3,6,9,16,22},{10,13,14,17,24},{18,21,23,26,30}}
 	//xx := [][]int{{},{1},{},{2},{}}
-	xx := [][]int{{-1,3}}
-	target := 3
-	var b = FindNumberIn2DArray(xx, target)
-	fmt.Println(b)
+	//xx := [][]int{{-1,3}}
+	//target := 3
+	//var b = FindNumberIn2DArray(xx, target)
+	//fmt.Println(b)
+
+	//xx := []int{0, 4, 5, 0, 3, 6}
+	xx := []int{4,3,1,2}
+	fmt.Println(QuickSort(xx, 0, len(xx)-1))
 }
 
 //func XX253() {
