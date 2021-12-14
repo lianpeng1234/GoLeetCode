@@ -29,9 +29,9 @@ func main() {
 	//var b = FindNumberIn2DArray(xx, target)
 	//fmt.Println(b)
 
-	//xx := []int{0, 4, 5, 0, 3, 6}
-	xx := []int{4,3,1,2}
-	fmt.Println(QuickSort(xx, 0, len(xx)-1))
+	xx := []int{73, 74, 75, 71, 69, 72, 76, 73}
+	yy := dailyTemperatures(xx)
+	fmt.Println(yy)
 }
 
 //func XX253() {
