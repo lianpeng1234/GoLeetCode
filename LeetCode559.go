@@ -3,6 +3,8 @@ package main
 type Node struct {
 	Val      int
 	Children []*Node
+	Next     *Node
+	Random   *Node
 }
 
 func maxDepth(root *Node) int {
